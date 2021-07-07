@@ -4,7 +4,7 @@
 \alias{f_nw_0}
 \title{Nadaraya-Watson nonparametric regression.}
 \usage{
-f_nw_0(x, y, x0, h, k1 = stats::dnorm, ...)
+f_nw_0(x, y, x0, h, k1 = dnorm, ...)
 }
 \arguments{
 \item{x}{vector with values for the regressor variable;}

@@ -15,7 +15,7 @@
 #' y <- sin(0.5 * pi * x) + e
 #' f_nw_0(x = x, y = y, x0 = 0.5, h = 0.1)
 
-f_nw_0 <- function(x, y, x0, h, k1 = stats::dnorm, ...) {
+f_nw_0 <- function(x, y, x0, h, k1 = dnorm, ...) {
   aux <- k1((x - x0) / h, ...)
   pesos <- aux / sum(aux)
   res <- sum(pesos * y)
