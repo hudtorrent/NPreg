@@ -1,4 +1,5 @@
-#' Nadaraya-Watson nonparametric regression.
+#' Nadaraya-Watson nonparametric regression at a particular point x0.
+#' 
 #' @param x vector with values for the regressor variable;
 #' @param y vector with values for the dependent variable;
 #' @param x0 scalar where the user wants to evaluate the estimator;
