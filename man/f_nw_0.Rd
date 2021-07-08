@@ -26,9 +26,9 @@ scalar which is the Nadaraya-Watson estimate at x0.
 Nadaraya-Watson nonparametric regression at a particular point x0.
 }
 \examples{
-n <- 300
+n <- 400
 x <- runif(n, -1, 1)
 e <- rnorm(n, 0, 0.5)
-y <- sin(0.5 * pi * x) + e
-f_nw_0(x = x, y = y, x0 = 0.5, h = 0.1)
+y <- sin(2.5 * pi * x) + e
+f_nw_0(x = x, y = y, x0 = 0.5, h = 0.05)
 }

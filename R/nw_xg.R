@@ -9,11 +9,11 @@
 #' @importFrom stats dnorm
 #' @export
 #' @examples
-#' n <- 300
+#' n <- 400
 #' x <- runif(n, -1, 1)
 #' e <- rnorm(n, 0, 0.5)
-#' y <- sin(0.5 * pi * x) + e
-#' f_nw_grid(x = x, y = y, xg = x, h = 0.1)
+#' y <- sin(2.5 * pi * x) + e
+#' f_nw_grid(x = x, y = y, xg = x, h = 0.05)
 
 f_nw_grid <- function(x, y, xg, h, k1 = dnorm, ...) {
 
